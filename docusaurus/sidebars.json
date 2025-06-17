@@ -1,0 +1,36 @@
+{
+  "docs": {
+    "Welcome": ["Welcome/intro", "Welcome/about"],
+    "Getting Started": [
+      "Getting Started/installation",
+      "Getting Started/options",
+      "Getting Started/folder-structure",
+      "Getting Started/scripts"
+    ],
+    "Customizing": [
+      "Customizing/datafiles",
+      "Customizing/about",
+      "Customizing/contact",
+      "Customizing/counter",
+      "Customizing/portfolio",
+      "Customizing/resume",
+      "Customizing/skills",
+      "Customizing/manifest",
+      "Customizing/other-files"
+    ],
+    "Website Gallery": [
+      "Gallery/gallery-website",
+      "Gallery/gallery-home",
+      "Gallery/gallery-about",
+      "Gallery/gallery-resume",
+      "Gallery/gallery-portfolio",
+      "Gallery/gallery-contact"
+    ],
+    "Deployment": [
+      "Deployment/deploy",
+      "Deployment/build",
+      "Deployment/github-pages",
+      "Deployment/vercel"
+    ]
+  }
+}

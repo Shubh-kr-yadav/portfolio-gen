@@ -1,0 +1,25 @@
+{
+  "appName": "Portfolio Generator",
+  "description": "Generates a bootstrap based portfolio website for you.",
+  "website": "https://portfolio-generator.cybersaksham.co.in",
+  "author": "cybersaksham",
+  "authorURL": "https://www.cybersaksham.co.in",
+  "deploymentBranch": "gh-pages",
+  "repository": "portfolio-generator",
+  "sponsorURL": "https://github.com/sponsors/cybersaksham",
+  "githubURL": "https://github.com/cybersaksham/Portfolio-Generator",
+  "editURL": "https://github.com/cybersaksham/Portfolio-Generator/tree/master/docusaurus",
+  "screencastURL": "https://raw.githubusercontent.com/cybersaksham/Portfolio-Generator/master/screencast.svg",
+  "aboutURL": "/docs/about",
+  "docURL": "/docs/installation",
+  "metadata": [
+    {
+      "name": "description",
+      "content": "Generate a bootstrap based portfolio website for ans user. Website will be using Next JS. User can configure generated code according to their needs. User can upload code on GitHub or deploy on Vercel."
+    },
+    {
+      "name": "keywords",
+      "content": "portfolio, generator, portfolio-generator, npm, package, node js, next js, bootstrap, cybersaksham, saksham, bindal, docusaurus,command line, tool"
+    }
+  ]
+}

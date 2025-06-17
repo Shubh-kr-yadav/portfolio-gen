@@ -1,0 +1,27 @@
+---
+id: gallery-website
+slug: /gallery-website
+title: Website
+sidebar_label: Website
+---
+
+```mdx-code-block
+import BrowserWindow from '@site/src/components/BrowserWindow';
+```
+
+```mdx-code-block
+<BrowserWindow url={"https://portfolio-generator-dummy.cybersaksham.co.in/"} isWebsite={true}>
+</BrowserWindow>
+<button className="button button--secondary" style={{float:"right", clear:"both"}} onClick={()=>{
+    let elem = document.getElementById("website");
+    if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+    } else if (elem.webkitRequestFullscreen) {
+        /* Safari */
+        elem.webkitRequestFullscreen();
+    } else if (elem.msRequestFullscreen) {
+        /* IE11 */
+        elem.msRequestFullscreen();
+    }
+}}>Full Screen</button>
+```
