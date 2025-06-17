@@ -1,0 +1,47 @@
+{
+  "name": "portfolio-generator",
+  "version": "6.1.2",
+  "author": "cybersaksham",
+  "license": "MIT",
+  "description": "This package generates a bootstrap based portfolio website for you.",
+  "keywords": [
+    "portfolio",
+    "nextjs",
+    "cybersaksham",
+    "boootstrap",
+    "portfolio-generator"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "portfolio-generator": "node tasks/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cybersaksham/Portfolio-Generator.git",
+    "directory": "packages/portfolio-generator"
+  },
+  "bugs": {
+    "url": "https://github.com/cybersaksham/Portfolio-Generator/issues"
+  },
+  "homepage": "http://portfolio-generator.cybersaksham.co.in/",
+  "bin": {
+    "portfolio-generator": "./index.js"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "commander": "^9.4.1",
+    "cross-spawn": "^7.0.3",
+    "chalk": "^4.1.0",
+    "cybersaksham-npm-logs": "^5.2.2",
+    "envinfo": "^7.8.1",
+    "fs-extra": "^11.1.0",
+    "prettier": "^2.8.1",
+    "prompts": "^2.4.2",
+    "semver": "^7.3.8",
+    "validate-npm-package-name": "^5.0.0"
+  }
+}

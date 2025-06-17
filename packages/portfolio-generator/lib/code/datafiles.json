@@ -1,0 +1,14 @@
+{
+  "about": "Data/About.js",
+  "contact": "Data/Contact.js",
+  "counter": "Data/Counter.js",
+  "portfolio": "Data/Portfolio.js",
+  "resume": "Data/Resume.js",
+  "skills": "Data/Skills.js",
+  "manifest": "public/manifest.json",
+  "favicon": "public/favicon.ico",
+  "404": "public/Gallery/404.webp",
+  "bg": "public/Gallery/bg.webp",
+  "pic": "public/Gallery/pic.webp",
+  "resumePdf": "public/Resume.pdf"
+}
